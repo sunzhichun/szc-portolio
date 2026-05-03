@@ -1,0 +1,12 @@
+{
+  "greeting": "Hi，我是孙致纯",
+  "roles": ["Product & Project Manager", "AI Explorer", "ESTJ"],
+  "intro": "拥有近3年大厂产品策划及项目管理经验，擅长洞察业务痛点、搭建标准化的流程与业务系统。致力于挖掘基于AI的创新性产品解决方案。",
+  "resumeBaseName": "sunzhichun_resume",
+  "resumeDownloadFileName": "孙致纯_个人简历.pdf",
+  "jdPlaceholder": "粘贴您的JD，查看孙致纯与岗位之间的匹配度",
+  "contact": {
+    "wechatParts": ["1982", "1609", "251"],
+    "emailParts": ["sunzhichun1998", "@", "163.com"]
+  }
+}

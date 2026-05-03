@@ -1,0 +1,20 @@
+[
+  {
+    "id": "analysis",
+    "title": "数据分析类",
+    "tone": "mint",
+    "items": ["SQL", "SPSS"]
+  },
+  {
+    "id": "tools",
+    "title": "工具类",
+    "tone": "blue",
+    "items": ["Axure", "Figma"]
+  },
+  {
+    "id": "cert",
+    "title": "认证与语言",
+    "tone": "orange",
+    "items": ["PMP认证", "雅思7.0"]
+  }
+]

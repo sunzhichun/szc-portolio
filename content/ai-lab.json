@@ -1,0 +1,49 @@
+{
+  "projects": [
+    {
+      "id": "meetwe",
+      "name": "MeetWe",
+      "description": "专为 2～6 人小团体聚会设计，在你和朋友们的定位之间选出更顺路、相对公平的约会地，并按兴趣场景与评分给出推荐。",
+      "tags": ["Figma", "Cursor", "GitHub"],
+      "link": "https://sunzhichun.github.io/meetwe/",
+      "cover": "/images/meetwe-thumb.png",
+      "detailImage": "/images/meetwe-detail.png",
+      "titleNote": "（建议连接外网VPN后打开）"
+    },
+    {
+      "id": "clozy",
+      "name": "Clozy",
+      "description": "一款虚拟衣橱工具，支持衣物上传、试穿搭配、OOTD 日历与穿搭模板复用，帮助用户高效管理穿搭灵感与日常记录。",
+      "tags": ["Figma", "Cursor", "Supabase", "GitHub"],
+      "link": "https://clozy-web.vercel.app",
+      "cover": "/images/clozy-thumb.png",
+      "detailImage": "/images/clozy-detail.png",
+      "titleNote": "（需连接外网VPN后打开）"
+    },
+    {
+      "id": "portfolio",
+      "name": "个人简历网站",
+      "description": "就是你现在看到的这个网站啦",
+      "tags": ["Cursor", "阿里云百炼"],
+      "link": "#",
+      "cover": "/images/portfolio-thumb.png",
+      "detailImage": "/images/portfolio-detail.png"
+    }
+  ],
+  "notes": [
+    {
+      "id": "note-1",
+      "title": "跨专业转 PM 备考 PMP 的真实体验",
+      "summary": "文科背景 + 4个月备考，一次通过，复盘全过程。",
+      "stats": "876 收藏 · 153 互动",
+      "link": "#"
+    },
+    {
+      "id": "note-2",
+      "title": "Figma 自学笔记｜组件库搭建最佳实践",
+      "summary": "从零开始搭建设计系统，这里是我踩过的坑和方法。",
+      "stats": "318 收藏 · 56 互动",
+      "link": "#"
+    }
+  ]
+}

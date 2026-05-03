@@ -1,0 +1,6 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="24" fill="#F6F6F6"/>
+  <rect x="80" y="80" width="1040" height="560" rx="20" fill="#FFFFFF"/>
+  <text x="120" y="240" fill="#020002" font-family="Arial, sans-serif" font-size="72" font-weight="700">Portfolio</text>
+  <text x="120" y="320" fill="#4B5563" font-family="Arial, sans-serif" font-size="36">个人品牌网站</text>
+</svg>

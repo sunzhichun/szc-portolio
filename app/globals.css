@@ -1,0 +1,74 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+:root {
+  color-scheme: light;
+  --header-height: 5.25rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #020002;
+  font-family: Inter, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", system-ui,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.site-container {
+  margin: 0 auto;
+  width: min(1160px, calc(100% - 2.25rem));
+}
+
+.section-shell {
+  padding-block: 5.5rem;
+}
+
+.glass-panel {
+  backdrop-filter: blur(12px);
+  background: rgb(255 255 255 / 70%);
+  border: 1px solid rgb(255 255 255 / 20%);
+}
+
+.card-shell {
+  border-radius: 1.5rem;
+  background: #fff;
+  box-shadow: 0 8px 30px rgb(0 0 0 / 0.04);
+}
+
+.skill-card-hover:hover {
+  will-change: transform, box-shadow;
+  box-shadow: 0 14px 36px rgb(0 0 0 / 0.12);
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .site-container {
+    width: min(1160px, calc(100% - 1.25rem));
+  }
+
+  .section-shell {
+    padding-block: 4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

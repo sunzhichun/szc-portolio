@@ -1,0 +1,11 @@
+.next
+node_modules
+out
+dist
+*.log
+.DS_Store
+
+# Secrets（勿提交）；Cloudflare / 服务器上另行配置
+.env
+.env.*
+!.env.local.example
