@@ -9,3 +9,13 @@ dist
 .env
 .env.*
 !.env.local.example
+
+# OpenNext
+.open-next
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+
+!.env.example
