@@ -10,7 +10,7 @@ interface DashScopeMessage {
 interface DashScopeChoice {
   message?: {
     content?: string | null;
-    /** 深度思考模型（如 qwen3-max）可能返回；若 content 为空可尝试从此处解析 JSON */
+    /** 深度思考模型可能返回；若 content 为空可尝试从此处解析 JSON */
     reasoning_content?: string | null;
   };
 }
@@ -19,8 +19,8 @@ interface DashScopeChatResponse {
   choices?: DashScopeChoice[];
 }
 
-/** 未设置时回退 qwen3-max；环境变量也请固定为该值以保证稳定调用 */
-const DEFAULT_MODEL = process.env.DASHSCOPE_MODEL ?? "qwen3-max";
+/** 未设置时回退 qwen3.6-plus；与百炼控制台模型名一致 */
+const DEFAULT_MODEL = process.env.DASHSCOPE_MODEL ?? "qwen3.6-plus";
 const ENDPOINT = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions";
 
 function envFlag(name: string, defaultValue: boolean): boolean {

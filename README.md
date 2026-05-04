@@ -51,7 +51,7 @@ If filename changes, update `resumeBaseName` in `content/about.json`.
 | 变量 | 说明 |
 | --- | --- |
 | `DASHSCOPE_API_KEY` | 必填，百炼 API Key |
-| `DASHSCOPE_MODEL` | **请固定为 `qwen3-max`**（本地、测试与线上均需一致）；未设置时代码默认亦为 `qwen3-max` |
+| `DASHSCOPE_MODEL` | 与控制台一致，例如 **`qwen3.6-plus`**；未设置时代码默认亦为 `qwen3.6-plus` |
 | `DASHSCOPE_ENABLE_THINKING` | 建议 `false`，便于稳定返回纯 JSON |
 
 本地可复制 `.env.local.example` 为 `.env.local` 后填写 Key。
@@ -67,4 +67,4 @@ This project runs in Node mode.
    - `npm run build`
    - `npm run start`
 4. Use Nginx reverse proxy to map your domain to the app port (default 3000).
-5. In the deployment console, set environment variables (at least `DASHSCOPE_API_KEY`, and `DASHSCOPE_MODEL=qwen3-max` for production).
+5. In the deployment console, set environment variables (at least `DASHSCOPE_API_KEY`, and `DASHSCOPE_MODEL=qwen3.6-plus` for production if you use the same model).
